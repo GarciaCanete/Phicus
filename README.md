@@ -1,8 +1,21 @@
-# React + Vite
+# PHICUS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Test técnico para puesto de frontend para empresa phicus.
 
-Currently, two official plugins are available:
+## Variables de entorno
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Buscar el archivo .env.template.local
+- Reemplazar `YOURAPIKEY` por la apikey de openweathermap
+
+## Correr en local
+
+- Clonar el repositorio de forma local
+- Ingresar dentro de la carpeta
+- Abrir terminal y ejecutar
+
+```bash
+  npm install
+  npm run dev
+```
+
+- Ingresar a http://localhost:8083

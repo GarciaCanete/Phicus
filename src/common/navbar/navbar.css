@@ -1,0 +1,25 @@
+.navbar {
+	align-items: center;
+	background-color: #e3e0e0;
+	border-bottom: 2px solid var(--background);
+	height: 40px;
+	margin-top: -30px;
+	padding-left: 20px;
+	padding-top: 20px;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+}
+
+.navbar > a {
+	font-family: Lucida, serif;
+	font-size: 1.1rem;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+.navbar > a {
+	padding: 20px 1.6vw 22px 1.6vw;
+	transition: padding 0.3s;
+}

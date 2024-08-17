@@ -1,0 +1,53 @@
+/****************************************************************************/
+/********************* INPUTS *************************/
+/****************************************************************************/
+.container-input {
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.container-input > input {
+	background-color: transparent;
+	border: 1px solid var(--accents-5);
+	color: var(--accents-1);
+	padding: 8px 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	transition: border-color 250ms;
+}
+
+.container-input > input {
+	width: 95%;
+}
+
+.container-input > input:focus {
+	border-color: var(--accents-2);
+	outline: none;
+}
+
+.container-input > input::placeholder {
+	color: transparent;
+}
+
+.container-input > label {
+	background-color: var(--accents-7);
+	color: var(--accents-1);
+	left: 10px;
+	padding-left: 7px;
+	padding-right: 7px;
+	pointer-events: none;
+	position: absolute;
+	transition: transform 250ms;
+	top: 8px;
+}
+
+.container-input > input:focus + label,
+.container-input > input:not(:placeholder-shown) + label {
+	transform: translateY(-100%) scale(0.85);
+}
+
+.container-input > span {
+	color: var(--error);
+	font-size: 14px;
+	padding-left: 10px;
+}
